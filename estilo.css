@@ -7,7 +7,7 @@
 	background-color: red;
 }
 #car{
-	background-color: yellow; 
+	background-color: red; 
 	border: 2px solid black;
 	
 	border-radius: 20px;
@@ -26,6 +26,8 @@ border: 2px solid black;
 
 }
 #divisa{
+	background-color: blue;
+	color:black;
 	text-align: center;
 	 font-size:70px; 
 	 border: 2px solid black;
@@ -42,7 +44,7 @@ div.card-header{
 	background-color: yellow;
 }
 #veiculos{
-	background-color: red;
+	background-color: yellow;
 }
 div.carousel-item{
 	border: 2px solid red;
