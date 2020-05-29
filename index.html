@@ -16,7 +16,7 @@
 <body style="background: black; color: white">
 <div class="container-fluid fixed-top ">
 	<div class="row">
-		<div class="col-md-6" id="topo">   Evento  |  FaceBook  |  Instagram</div>
+		<div class="col-md-6" id="topo">   </div>
 		<div class="col-md-6"  id="topo">  Nossa lojas  |   Teste Driver |  Login </div>
 	</div>
 </div>	
@@ -32,19 +32,19 @@
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	    <ul class="navbar-nav mr-auto">
 	      <li class="nav-item active">
-	        <a class="nav-link" href="#moto" style="font-size:30px"><img src="iconMoto.png" width="50px" height="50px" > Moto <span class="sr-only">(current)</span></a>
+	        <a class="nav-link" href="#moto"><img src="iconMoto.png" width="50px" height="50px" > Moto <span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#carro" style="font-size:30px" >
+	        <a class="nav-link" href="#carro"  >
 				<img src="carro.png" width="50px" height="50px" > 
 	        Carro</a>
 	      </li>
 	  </div>
-	  <img src="moto.png" width="100px" height="100px">
+	  <img class="logo" src="moto.png" >
 	</nav>
 	<!---____________________________-->
 	<!-- Carousel---------------------->
-	<div class="container-fluid" style="padding-top: 5%; padding-bottom: 5%;">
+	<div class="container-fluid" style="padding-top: 5%; padding-bottom: 5%; ">
 		<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -75,11 +75,11 @@
 <!--FIm-Carousel--->
 <!----- Section de moto------->
 <section id="moto">	
-	<div style="text-align: center; font-size:70px; background-color: red;"><h1>Motos</h1></div>
-<div class="container-fluid">
+	<div style="background-color: red;" id="divisa"><h1>Motos</h1></div>
+<div class="container-fluid" >
 	<div class="row">
-		<div class="col-md-5" style="background-color: red;"><img src="https://www.pngpix.com/wp-content/uploads/2016/07/PNGPIX-COM-BMW-K1300R-Naked-Motorcycle-Bike-PNG-Image.png" width="100%" height="100%" > </div>
-		<div class="col-md-7 card">
+		<div class="col-md-5" style="background-color: red;" id="bike"><img src="https://www.pngpix.com/wp-content/uploads/2016/07/PNGPIX-COM-BMW-K1300R-Naked-Motorcycle-Bike-PNG-Image.png" width="100%" height="100%" > </div>
+		<div class="col-md-7 card" id="motores">
 			<div class="card-header" style="text-align: center; color:black;"><h1>BMW</h1></div>
 			<div class="card-body" style="text-align: center; color:black">
 				<h5 class="card-title"> K1300R </h5>
@@ -91,15 +91,15 @@
 </div>
 
 
-<div class="container-fluid">
+<div class="container-fluid" >
 	<div class="row">
-		<div class="col-md-7 card" ><div class="card-header" style="text-align: center; color:black;"><h1>DUCATI</h1></div>
+		<div class="col-md-7 card" id="motores" ><div class="card-header" style="text-align: center; color:black;" ><h1>DUCATI</h1></div>
 			<div class="card-body" style="text-align: center; color:black">
 				<h5 class="card-title"> 959 Panigale </h5>
 				<p class="card-text">Especificação técnica da moto </p>
 				<a href="#" class="btn  btn-primary">Veja Aqui!!</a>
 			</div></div>
-		<div class="col-md-5" style="background-color: red"><img src="http://www.pngpix.com/wp-content/uploads/2016/07/PNGPIX-COM-Ducati-959-Panigale-Motorcycle-Bike-PNG-Image.png"  width="100%" height="100%"></div>
+		<div class="col-md-5" style="background-color: red" id="bike"><img src="http://www.pngpix.com/wp-content/uploads/2016/07/PNGPIX-COM-Ducati-959-Panigale-Motorcycle-Bike-PNG-Image.png"  width="100%" height="100%"></div>
 	</div>
 </div>
 
@@ -107,12 +107,12 @@
 <!---Fim Moto---->
 <!--SECTION de Carro-->
 <section id="carro">
-		<div style="text-align: center; font-size:70px; background-color: yellow; color:black;"><h1>Carros</h1></div>
+		<div style="background-color: yellow; color:black;" id="divisa"><h1>Carros</h1></div>
 <div class="container-fluid">
 
 	<div class="row">
-		<div class="col-md-5" style="background-color: yellow"><img src="https://2.bp.blogspot.com/-ldGXEgsKb-8/UGWaoz18JBI/AAAAAAAAAKo/hji598eRG2k/s1600/png_carro.png" width="100%" height="100%"></div>
-		<div class="col-md-7 card"><div class="card-header" style="text-align: center; color:black;"><h1>Chevrolet</h1></div>
+		<div class="col-md-5" id="car"><img src="https://2.bp.blogspot.com/-ldGXEgsKb-8/UGWaoz18JBI/AAAAAAAAAKo/hji598eRG2k/s1600/png_carro.png" width="100%" height="100%"></div>
+		<div class="col-md-7 card" id="veiculos"><div class="card-header" style="text-align: center; color:black;"><h1>Chevrolet</h1></div>
 			<div class="card-body" style="text-align: center; color:black">
 				<h5 class="card-title"> CAMARO </h5>
 				<p class="card-text">Especificação técnica do Carro </p>
@@ -124,13 +124,13 @@
 
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-md-7 card"><div class="card-header" style="text-align: center; color:black;"><h1>FORD</h1></div>
+		<div class="col-md-7 card" id="veiculos"><div class="card-header" style="text-align: center; color:black;"><h1>FORD</h1></div>
 			<div class="card-body" style="text-align: center; color:black">
 				<h5 class="card-title"> Mustang </h5>
 				<p class="card-text">Especificação técnica do Carro</p>
 				<a href="#" class="btn  btn-primary">Clique aqui!</a>
 			</div></div>
-		<div class="col-md-5" style="background-color: yellow"><img src="http://www.arroyodrivingschool.com/img/carros/black.png" width="100%" height="100%"></div>
+		<div class="col-md-5" id="car"><img src="http://www.arroyodrivingschool.com/img/carros/black.png" width="100%" height="100%"></div>
 	</div>
 </div>
 </section>
@@ -138,10 +138,10 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-12" id="rodape">   Curta nossa no <br>
-				 <img src="http://1.bp.blogspot.com/-qn7lmuHK8NI/UGBy5pNnzFI/AAAAAAAAADM/w9Mxz26MGs8/s1600/png_facebook.png" width="50px" height="50px">
-				 <img src="http://1.bp.blogspot.com/-MMiex1Q1vQY/UGB0JHHNlsI/AAAAAAAAADk/P_gwkqRHk38/s1600/png_google.png" width="50px" height="50px">
-				 <img src="http://2.bp.blogspot.com/-LvOmXuWeqNE/UGB0Nf_vrtI/AAAAAAAAAD8/NrV6N46y8Vg/s1600/png_youtube.png" width="50px" height="50px">
-				 <img src="http://4.bp.blogspot.com/-0y2vE0dHWRo/UGBy6tRXkoI/AAAAAAAAADU/ztLuAz3eNvU/s1600/png_twitter.png" width="50px" height="50px">
+				 <img id="icon" src="http://1.bp.blogspot.com/-qn7lmuHK8NI/UGBy5pNnzFI/AAAAAAAAADM/w9Mxz26MGs8/s1600/png_facebook.png">
+				 <img  id="icon" src="http://1.bp.blogspot.com/-MMiex1Q1vQY/UGB0JHHNlsI/AAAAAAAAADk/P_gwkqRHk38/s1600/png_google.png" >
+				 <img  id="icon" src="http://2.bp.blogspot.com/-LvOmXuWeqNE/UGB0Nf_vrtI/AAAAAAAAAD8/NrV6N46y8Vg/s1600/png_youtube.png" >
+				 <img id="icon" src="http://4.bp.blogspot.com/-0y2vE0dHWRo/UGBy6tRXkoI/AAAAAAAAADU/ztLuAz3eNvU/s1600/png_twitter.png" >
 			</div>
 		</div>
 	</div>
