@@ -6,6 +6,72 @@
 	text-align: center;
 	background-color: red;
 }
-.card{
+#car{
+	background-color: yellow; 
 	border: 2px solid black;
+	
+	border-radius: 20px;
+}
+#bike{
+	background-color: red; 
+	border: 2px solid black;
+	
+	border-radius: 20px;
+}
+div.card{
+border: 2px solid black;
+	
+	border-radius: 20px;
+
+
+}
+#divisa{
+	text-align: center;
+	 font-size:70px; 
+	 border: 2px solid black;
+	border-radius: 20px;
+}
+div.card-header{
+	border: 2px solid black;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px 5px black;
+	
+	
+}
+ #motores{
+	background-color: yellow;
+}
+#veiculos{
+	background-color: red;
+}
+div.carousel-item{
+	border: 2px solid red;
+	border-radius: 20px;
+	background-color: white;
+}
+img.logo{
+	padding-top: 20px;
+	width: 100px;
+	height: 100px;
+}
+#icon{
+	width: 50px;
+	height: 50px;
+	padding: 10px 10px 10px 10px;
+	border:2px solid black;
+	border-radius: 20px;
+	background-color: white;
+
+}
+#rodape{
+background-color:red;
+border:2px solid black;
+	border-radius: 20px;
+	padding-bottom: 10px;
+
+}
+li.nav-item{
+	padding: 10px 10px 0px 20px;
+	font-size: 30px;
+	text-align: center;
 }
